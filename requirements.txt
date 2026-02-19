@@ -1,7 +1,10 @@
-
 fastapi
 uvicorn[standard]
 pydantic>=2
 pydantic-settings
-
 typing-extensions
+python-dotenv
+openai
+email-validator
+httpx
+slowapi

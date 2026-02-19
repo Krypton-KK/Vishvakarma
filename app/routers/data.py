@@ -1,9 +1,11 @@
 
 from fastapi import APIRouter
 from typing_extensions import deprecated
+from fastapi import Request
 from app.connectors.crm_connector import CRMConnector
 from app.connectors.support_connector import SupportConnector
 from app.connectors.analytics_connector import AnalyticsConnector
+from app.utils.limiter import limiter
 from app.models.common import DataResponse, Metadata, SourcePayload
 from datetime import datetime
 
@@ -12,7 +14,8 @@ from app.models.domain_models import SourcePayloadCRM, SourcePayloadSupport, Sou
 router = APIRouter()
 
 @router.get("/data/crm", response_model=DataResponse)
-def get_data_crm(payload: SourcePayloadCRM):
+@limiter.limit("5/minute")
+def get_data_crm(request: Request, payload: SourcePayloadCRM):
     """
         Query customer by filter value of the specified filter parameter and return filtered customer list in sorted order according to the value of sortAscending.
         Gets only the top k values as specified by returnCount.
@@ -27,7 +30,8 @@ def get_data_crm(payload: SourcePayloadCRM):
     return getter(connector, payload)
 
 @router.get("/data/support", response_model=DataResponse)
-def get_data_support(payload: SourcePayloadSupport):
+@limiter.limit("5/minute")
+def get_data_support(request: Request, payload: SourcePayloadSupport):
     """
         Query support_tickets by filter value of the specified filter parameter and return filtered customer list in sorted order according to the value of sortAscending.
         Gets only the top k values as specified by returnCount.
@@ -42,7 +46,8 @@ def get_data_support(payload: SourcePayloadSupport):
     return getter(connector, payload)
 
 @router.get("/data/analytics", response_model=DataResponse)
-def get_data_analytics(payload: SourcePayloadAnalytics):
+@limiter.limit("5/minute")
+def get_data_analytics(request: Request, payload: SourcePayloadAnalytics):
     """
         Query analytics by filter value of the specified filter parameter and return filtered analytics list in sorted order according to the value of sortAscending.
         Gets only the top k values as specified by returnCount.
@@ -56,9 +61,16 @@ def get_data_analytics(payload: SourcePayloadAnalytics):
     connector = AnalyticsConnector()
     return getter(connector, payload)
 
-@router.get("/data/", response_model=DataResponse)
-def get_data_malformed(payload: SourcePayload):
-        return DataResponse(data=[], metadata=Metadata(total_results=0, returned_results=0, data_freshness="unknown", summary=""))
+@router.get("/data/{other_path:path}", response_model=DataResponse)
+@limiter.limit("5/minute")
+def get_data_malformed(request: Request, other_path: str, payload: SourcePayload):
+    """
+    All other endpoints those return wrong or malformed data.
+
+    Args:\n
+        payload: SourcePayload\n
+    """
+    return DataResponse(data=[], metadata=Metadata(total_results=0, returned_results=0, data_freshness="unknown", summary=""))
 
 
 def getter(connector: CRMConnector | AnalyticsConnector | SupportConnector, payload: SourcePayloadCRM | SourcePayloadAnalytics | SourcePayloadSupport):
