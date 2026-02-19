@@ -7,8 +7,6 @@ API_URL = "http://localhost:8000"
 
 client = OpenAI(base_url=LM_STUDIO_URL, api_key="lm-studio")
 
-# 2. Define the Tool Schema
-#    (In a real app, you might generate this from app.openapi())
 tools = [
     {
         "type": "function",
@@ -41,7 +39,6 @@ tools = [
             }
         }
     },
-    # You can add get_support_data and get_analytics_data here similarly
 ]
 
 
@@ -50,10 +47,9 @@ def main():
     # query = "Find active customers, sorted by name."
     print(f"User Query: {query}")
 
-    # 3. Call the LLM with Tools
     try:
         response = client.chat.completions.create(
-            model="lfm2-700m-mlx",  # LM Studio usually ignores this or uses loaded model
+            model="lfm2-700m-mlx",
             messages=[
                 {"role": "system",
                  "content": "You are a helpful assistant. Use the available tools to answer queries."},
@@ -67,28 +63,15 @@ def main():
         print("Ensure LM Studio is running on port 1234 with the Local Server started.")
         return
 
-    # 4. Handle Tool Calls
     message = response.choices[0].message
     if message.tool_calls:
         for tool_call in message.tool_calls:
             print(f"\n[LLM Decision] Calling tool: {tool_call.function.name}")
             print(f"  Arguments: {tool_call.function.arguments}")
 
-            # 5. Execute Code (Simulated here, but you would call your API)
             if tool_call.function.name == "get_crm_data":
                 args = json.loads(tool_call.function.arguments)
                 try:
-                    # Map filterValue to int if param is ID, else keep str?
-                    # Your API handles string inputs mostly or requires strict types.
-                    # Let's just pass what the API expects.
-
-                    # NOTE: Your API expects POST or GET? Router uses GET with JSON body (unusual) or Query params?
-                    # Your router uses: get_data_crm(payload: SourcePayloadCRM)
-                    # FastAPI with Pydantic model in GET request usually expects QUERY params if not Body.
-                    # But SourcePayloadCRM is a complex model. FastAPI default is "Body" for Pydantic models in GET unless Depends() is used.
-                    # Most clients/browsers strip Body from GET. Creating valid request:
-
-                    # Let's try sending as JSON body (httpx supports it)
                     api_response = httpx.request(
                         "GET",
                         f"{API_URL}/data/crm",
