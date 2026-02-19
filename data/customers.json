@@ -1,0 +1,352 @@
+[
+  {
+    "customer_id": 1,
+    "name": "Customer 1",
+    "email": "user1@example.com",
+    "created_at": "2025-03-03T03:46:48.375649",
+    "status": "active"
+  },
+  {
+    "customer_id": 2,
+    "name": "Customer 2",
+    "email": "user2@example.com",
+    "created_at": "2025-04-20T03:46:48.375671",
+    "status": "active"
+  },
+  {
+    "customer_id": 3,
+    "name": "Customer 3",
+    "email": "user3@example.com",
+    "created_at": "2025-05-05T03:46:48.375674",
+    "status": "inactive"
+  },
+  {
+    "customer_id": 4,
+    "name": "Customer 4",
+    "email": "user4@example.com",
+    "created_at": "2025-12-14T03:46:48.375678",
+    "status": "inactive"
+  },
+  {
+    "customer_id": 5,
+    "name": "Customer 5",
+    "email": "user5@example.com",
+    "created_at": "2026-01-13T03:46:48.375681",
+    "status": "active"
+  },
+  {
+    "customer_id": 6,
+    "name": "Customer 6",
+    "email": "user6@example.com",
+    "created_at": "2025-12-29T03:46:48.375684",
+    "status": "inactive"
+  },
+  {
+    "customer_id": 7,
+    "name": "Customer 7",
+    "email": "user7@example.com",
+    "created_at": "2025-12-29T03:46:48.375688",
+    "status": "inactive"
+  },
+  {
+    "customer_id": 8,
+    "name": "Customer 8",
+    "email": "user8@example.com",
+    "created_at": "2025-05-14T03:46:48.375692",
+    "status": "inactive"
+  },
+  {
+    "customer_id": 9,
+    "name": "Customer 9",
+    "email": "user9@example.com",
+    "created_at": "2025-10-02T03:46:48.375698",
+    "status": "inactive"
+  },
+  {
+    "customer_id": 10,
+    "name": "Customer 10",
+    "email": "user10@example.com",
+    "created_at": "2025-04-25T03:46:48.375702",
+    "status": "inactive"
+  },
+  {
+    "customer_id": 11,
+    "name": "Customer 11",
+    "email": "user11@example.com",
+    "created_at": "2025-08-21T03:46:48.375705",
+    "status": "inactive"
+  },
+  {
+    "customer_id": 12,
+    "name": "Customer 12",
+    "email": "user12@example.com",
+    "created_at": "2025-05-28T03:46:48.375708",
+    "status": "active"
+  },
+  {
+    "customer_id": 13,
+    "name": "Customer 13",
+    "email": "user13@example.com",
+    "created_at": "2025-04-14T03:46:48.375711",
+    "status": "inactive"
+  },
+  {
+    "customer_id": 14,
+    "name": "Customer 14",
+    "email": "user14@example.com",
+    "created_at": "2025-02-21T03:46:48.375713",
+    "status": "inactive"
+  },
+  {
+    "customer_id": 15,
+    "name": "Customer 15",
+    "email": "user15@example.com",
+    "created_at": "2025-05-16T03:46:48.375716",
+    "status": "inactive"
+  },
+  {
+    "customer_id": 16,
+    "name": "Customer 16",
+    "email": "user16@example.com",
+    "created_at": "2025-11-18T03:46:48.375718",
+    "status": "active"
+  },
+  {
+    "customer_id": 17,
+    "name": "Customer 17",
+    "email": "user17@example.com",
+    "created_at": "2025-12-04T03:46:48.375720",
+    "status": "active"
+  },
+  {
+    "customer_id": 18,
+    "name": "Customer 18",
+    "email": "user18@example.com",
+    "created_at": "2025-06-04T03:46:48.375723",
+    "status": "active"
+  },
+  {
+    "customer_id": 19,
+    "name": "Customer 19",
+    "email": "user19@example.com",
+    "created_at": "2025-12-04T03:46:48.375725",
+    "status": "active"
+  },
+  {
+    "customer_id": 20,
+    "name": "Customer 20",
+    "email": "user20@example.com",
+    "created_at": "2025-04-01T03:46:48.375727",
+    "status": "active"
+  },
+  {
+    "customer_id": 21,
+    "name": "Customer 21",
+    "email": "user21@example.com",
+    "created_at": "2025-08-17T03:46:48.375730",
+    "status": "inactive"
+  },
+  {
+    "customer_id": 22,
+    "name": "Customer 22",
+    "email": "user22@example.com",
+    "created_at": "2025-12-22T03:46:48.375734",
+    "status": "active"
+  },
+  {
+    "customer_id": 23,
+    "name": "Customer 23",
+    "email": "user23@example.com",
+    "created_at": "2025-06-01T03:46:48.375737",
+    "status": "inactive"
+  },
+  {
+    "customer_id": 24,
+    "name": "Customer 24",
+    "email": "user24@example.com",
+    "created_at": "2025-04-19T03:46:48.375738",
+    "status": "inactive"
+  },
+  {
+    "customer_id": 25,
+    "name": "Customer 25",
+    "email": "user25@example.com",
+    "created_at": "2025-11-03T03:46:48.375741",
+    "status": "active"
+  },
+  {
+    "customer_id": 26,
+    "name": "Customer 26",
+    "email": "user26@example.com",
+    "created_at": "2025-12-18T03:46:48.375743",
+    "status": "inactive"
+  },
+  {
+    "customer_id": 27,
+    "name": "Customer 27",
+    "email": "user27@example.com",
+    "created_at": "2025-08-27T03:46:48.375745",
+    "status": "active"
+  },
+  {
+    "customer_id": 28,
+    "name": "Customer 28",
+    "email": "user28@example.com",
+    "created_at": "2025-08-22T03:46:48.375747",
+    "status": "active"
+  },
+  {
+    "customer_id": 29,
+    "name": "Customer 29",
+    "email": "user29@example.com",
+    "created_at": "2025-02-27T03:46:48.375750",
+    "status": "active"
+  },
+  {
+    "customer_id": 30,
+    "name": "Customer 30",
+    "email": "user30@example.com",
+    "created_at": "2025-10-06T03:46:48.375754",
+    "status": "active"
+  },
+  {
+    "customer_id": 31,
+    "name": "Customer 31",
+    "email": "user31@example.com",
+    "created_at": "2025-09-17T03:46:48.375756",
+    "status": "active"
+  },
+  {
+    "customer_id": 32,
+    "name": "Customer 32",
+    "email": "user32@example.com",
+    "created_at": "2025-04-16T03:46:48.375759",
+    "status": "inactive"
+  },
+  {
+    "customer_id": 33,
+    "name": "Customer 33",
+    "email": "user33@example.com",
+    "created_at": "2025-03-26T03:46:48.375761",
+    "status": "inactive"
+  },
+  {
+    "customer_id": 34,
+    "name": "Customer 34",
+    "email": "user34@example.com",
+    "created_at": "2025-08-03T03:46:48.375764",
+    "status": "active"
+  },
+  {
+    "customer_id": 35,
+    "name": "Customer 35",
+    "email": "user35@example.com",
+    "created_at": "2025-06-26T03:46:48.375766",
+    "status": "inactive"
+  },
+  {
+    "customer_id": 36,
+    "name": "Customer 36",
+    "email": "user36@example.com",
+    "created_at": "2025-02-25T03:46:48.375768",
+    "status": "inactive"
+  },
+  {
+    "customer_id": 37,
+    "name": "Customer 37",
+    "email": "user37@example.com",
+    "created_at": "2025-04-16T03:46:48.375770",
+    "status": "inactive"
+  },
+  {
+    "customer_id": 38,
+    "name": "Customer 38",
+    "email": "user38@example.com",
+    "created_at": "2025-11-23T03:46:48.375772",
+    "status": "active"
+  },
+  {
+    "customer_id": 39,
+    "name": "Customer 39",
+    "email": "user39@example.com",
+    "created_at": "2026-01-19T03:46:48.375775",
+    "status": "inactive"
+  },
+  {
+    "customer_id": 40,
+    "name": "Customer 40",
+    "email": "user40@example.com",
+    "created_at": "2026-01-06T03:46:48.375778",
+    "status": "active"
+  },
+  {
+    "customer_id": 41,
+    "name": "Customer 41",
+    "email": "user41@example.com",
+    "created_at": "2025-11-25T03:46:48.375780",
+    "status": "active"
+  },
+  {
+    "customer_id": 42,
+    "name": "Customer 42",
+    "email": "user42@example.com",
+    "created_at": "2025-11-02T03:46:48.375783",
+    "status": "inactive"
+  },
+  {
+    "customer_id": 43,
+    "name": "Customer 43",
+    "email": "user43@example.com",
+    "created_at": "2025-03-22T03:46:48.375786",
+    "status": "active"
+  },
+  {
+    "customer_id": 44,
+    "name": "Customer 44",
+    "email": "user44@example.com",
+    "created_at": "2025-09-22T03:46:48.375788",
+    "status": "inactive"
+  },
+  {
+    "customer_id": 45,
+    "name": "Customer 45",
+    "email": "user45@example.com",
+    "created_at": "2025-05-31T03:46:48.375791",
+    "status": "inactive"
+  },
+  {
+    "customer_id": 46,
+    "name": "Customer 46",
+    "email": "user46@example.com",
+    "created_at": "2025-08-18T03:46:48.375794",
+    "status": "active"
+  },
+  {
+    "customer_id": 47,
+    "name": "Customer 47",
+    "email": "user47@example.com",
+    "created_at": "2025-02-20T03:46:48.375800",
+    "status": "active"
+  },
+  {
+    "customer_id": 48,
+    "name": "Customer 48",
+    "email": "user48@example.com",
+    "created_at": "2025-07-24T03:46:48.375803",
+    "status": "inactive"
+  },
+  {
+    "customer_id": 49,
+    "name": "Customer 49",
+    "email": "user49@example.com",
+    "created_at": "2025-03-18T03:46:48.375806",
+    "status": "active"
+  },
+  {
+    "customer_id": 50,
+    "name": "Customer 50",
+    "email": "user50@example.com",
+    "created_at": "2026-01-11T03:46:48.375809",
+    "status": "active"
+  }
+]

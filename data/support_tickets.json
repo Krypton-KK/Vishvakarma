@@ -1,0 +1,402 @@
+[
+  {
+    "ticket_id": 1,
+    "customer_id": 16,
+    "subject": "Issue 1",
+    "priority": "high",
+    "created_at": "2026-01-30T03:46:48.375896",
+    "status": "closed"
+  },
+  {
+    "ticket_id": 2,
+    "customer_id": 35,
+    "subject": "Issue 2",
+    "priority": "medium",
+    "created_at": "2026-01-17T03:46:48.375900",
+    "status": "closed"
+  },
+  {
+    "ticket_id": 3,
+    "customer_id": 12,
+    "subject": "Issue 3",
+    "priority": "high",
+    "created_at": "2026-01-17T03:46:48.375903",
+    "status": "closed"
+  },
+  {
+    "ticket_id": 4,
+    "customer_id": 35,
+    "subject": "Issue 4",
+    "priority": "high",
+    "created_at": "2026-02-04T03:46:48.375906",
+    "status": "open"
+  },
+  {
+    "ticket_id": 5,
+    "customer_id": 6,
+    "subject": "Issue 5",
+    "priority": "medium",
+    "created_at": "2026-02-07T03:46:48.375909",
+    "status": "closed"
+  },
+  {
+    "ticket_id": 6,
+    "customer_id": 38,
+    "subject": "Issue 6",
+    "priority": "low",
+    "created_at": "2026-02-08T03:46:48.375911",
+    "status": "open"
+  },
+  {
+    "ticket_id": 7,
+    "customer_id": 21,
+    "subject": "Issue 7",
+    "priority": "low",
+    "created_at": "2026-01-30T03:46:48.375914",
+    "status": "closed"
+  },
+  {
+    "ticket_id": 8,
+    "customer_id": 14,
+    "subject": "Issue 8",
+    "priority": "high",
+    "created_at": "2026-01-18T03:46:48.375921",
+    "status": "closed"
+  },
+  {
+    "ticket_id": 9,
+    "customer_id": 18,
+    "subject": "Issue 9",
+    "priority": "high",
+    "created_at": "2026-02-09T03:46:48.375927",
+    "status": "open"
+  },
+  {
+    "ticket_id": 10,
+    "customer_id": 32,
+    "subject": "Issue 10",
+    "priority": "low",
+    "created_at": "2026-02-04T03:46:48.375932",
+    "status": "open"
+  },
+  {
+    "ticket_id": 11,
+    "customer_id": 8,
+    "subject": "Issue 11",
+    "priority": "high",
+    "created_at": "2026-02-04T03:46:48.375946",
+    "status": "open"
+  },
+  {
+    "ticket_id": 12,
+    "customer_id": 30,
+    "subject": "Issue 12",
+    "priority": "medium",
+    "created_at": "2026-01-27T03:46:48.375951",
+    "status": "closed"
+  },
+  {
+    "ticket_id": 13,
+    "customer_id": 20,
+    "subject": "Issue 13",
+    "priority": "low",
+    "created_at": "2026-02-06T03:46:48.375953",
+    "status": "closed"
+  },
+  {
+    "ticket_id": 14,
+    "customer_id": 4,
+    "subject": "Issue 14",
+    "priority": "low",
+    "created_at": "2026-02-09T03:46:48.375956",
+    "status": "open"
+  },
+  {
+    "ticket_id": 15,
+    "customer_id": 31,
+    "subject": "Issue 15",
+    "priority": "medium",
+    "created_at": "2026-02-15T03:46:48.375958",
+    "status": "open"
+  },
+  {
+    "ticket_id": 16,
+    "customer_id": 5,
+    "subject": "Issue 16",
+    "priority": "low",
+    "created_at": "2026-02-12T03:46:48.375961",
+    "status": "open"
+  },
+  {
+    "ticket_id": 17,
+    "customer_id": 22,
+    "subject": "Issue 17",
+    "priority": "high",
+    "created_at": "2026-01-28T03:46:48.375963",
+    "status": "open"
+  },
+  {
+    "ticket_id": 18,
+    "customer_id": 37,
+    "subject": "Issue 18",
+    "priority": "medium",
+    "created_at": "2026-02-01T03:46:48.375966",
+    "status": "closed"
+  },
+  {
+    "ticket_id": 19,
+    "customer_id": 36,
+    "subject": "Issue 19",
+    "priority": "medium",
+    "created_at": "2026-01-18T03:46:48.375969",
+    "status": "open"
+  },
+  {
+    "ticket_id": 20,
+    "customer_id": 21,
+    "subject": "Issue 20",
+    "priority": "high",
+    "created_at": "2026-02-12T03:46:48.375972",
+    "status": "closed"
+  },
+  {
+    "ticket_id": 21,
+    "customer_id": 15,
+    "subject": "Issue 21",
+    "priority": "low",
+    "created_at": "2026-02-01T03:46:48.375974",
+    "status": "open"
+  },
+  {
+    "ticket_id": 22,
+    "customer_id": 44,
+    "subject": "Issue 22",
+    "priority": "high",
+    "created_at": "2026-01-27T03:46:48.375977",
+    "status": "open"
+  },
+  {
+    "ticket_id": 23,
+    "customer_id": 5,
+    "subject": "Issue 23",
+    "priority": "medium",
+    "created_at": "2026-01-18T03:46:48.375979",
+    "status": "open"
+  },
+  {
+    "ticket_id": 24,
+    "customer_id": 25,
+    "subject": "Issue 24",
+    "priority": "high",
+    "created_at": "2026-02-04T03:46:48.375982",
+    "status": "open"
+  },
+  {
+    "ticket_id": 25,
+    "customer_id": 2,
+    "subject": "Issue 25",
+    "priority": "medium",
+    "created_at": "2026-01-18T03:46:48.375984",
+    "status": "open"
+  },
+  {
+    "ticket_id": 26,
+    "customer_id": 50,
+    "subject": "Issue 26",
+    "priority": "low",
+    "created_at": "2026-02-10T03:46:48.375987",
+    "status": "open"
+  },
+  {
+    "ticket_id": 27,
+    "customer_id": 21,
+    "subject": "Issue 27",
+    "priority": "high",
+    "created_at": "2026-01-18T03:46:48.375989",
+    "status": "closed"
+  },
+  {
+    "ticket_id": 28,
+    "customer_id": 7,
+    "subject": "Issue 28",
+    "priority": "medium",
+    "created_at": "2026-02-08T03:46:48.375992",
+    "status": "open"
+  },
+  {
+    "ticket_id": 29,
+    "customer_id": 11,
+    "subject": "Issue 29",
+    "priority": "medium",
+    "created_at": "2026-01-29T03:46:48.375994",
+    "status": "open"
+  },
+  {
+    "ticket_id": 30,
+    "customer_id": 29,
+    "subject": "Issue 30",
+    "priority": "high",
+    "created_at": "2026-01-25T03:46:48.375996",
+    "status": "closed"
+  },
+  {
+    "ticket_id": 31,
+    "customer_id": 48,
+    "subject": "Issue 31",
+    "priority": "low",
+    "created_at": "2026-01-25T03:46:48.375999",
+    "status": "closed"
+  },
+  {
+    "ticket_id": 32,
+    "customer_id": 36,
+    "subject": "Issue 32",
+    "priority": "low",
+    "created_at": "2026-01-25T03:46:48.376001",
+    "status": "closed"
+  },
+  {
+    "ticket_id": 33,
+    "customer_id": 30,
+    "subject": "Issue 33",
+    "priority": "high",
+    "created_at": "2026-02-11T03:46:48.376004",
+    "status": "open"
+  },
+  {
+    "ticket_id": 34,
+    "customer_id": 40,
+    "subject": "Issue 34",
+    "priority": "medium",
+    "created_at": "2026-02-04T03:46:48.376006",
+    "status": "open"
+  },
+  {
+    "ticket_id": 35,
+    "customer_id": 35,
+    "subject": "Issue 35",
+    "priority": "low",
+    "created_at": "2026-02-15T03:46:48.376009",
+    "status": "closed"
+  },
+  {
+    "ticket_id": 36,
+    "customer_id": 24,
+    "subject": "Issue 36",
+    "priority": "medium",
+    "created_at": "2026-02-13T03:46:48.376012",
+    "status": "closed"
+  },
+  {
+    "ticket_id": 37,
+    "customer_id": 34,
+    "subject": "Issue 37",
+    "priority": "high",
+    "created_at": "2026-01-20T03:46:48.376014",
+    "status": "open"
+  },
+  {
+    "ticket_id": 38,
+    "customer_id": 47,
+    "subject": "Issue 38",
+    "priority": "medium",
+    "created_at": "2026-01-18T03:46:48.376016",
+    "status": "closed"
+  },
+  {
+    "ticket_id": 39,
+    "customer_id": 33,
+    "subject": "Issue 39",
+    "priority": "low",
+    "created_at": "2026-01-17T03:46:48.376019",
+    "status": "closed"
+  },
+  {
+    "ticket_id": 40,
+    "customer_id": 19,
+    "subject": "Issue 40",
+    "priority": "high",
+    "created_at": "2026-02-08T03:46:48.376021",
+    "status": "open"
+  },
+  {
+    "ticket_id": 41,
+    "customer_id": 34,
+    "subject": "Issue 41",
+    "priority": "medium",
+    "created_at": "2026-02-04T03:46:48.376024",
+    "status": "closed"
+  },
+  {
+    "ticket_id": 42,
+    "customer_id": 2,
+    "subject": "Issue 42",
+    "priority": "low",
+    "created_at": "2026-01-20T03:46:48.376026",
+    "status": "closed"
+  },
+  {
+    "ticket_id": 43,
+    "customer_id": 26,
+    "subject": "Issue 43",
+    "priority": "low",
+    "created_at": "2026-02-07T03:46:48.376028",
+    "status": "closed"
+  },
+  {
+    "ticket_id": 44,
+    "customer_id": 38,
+    "subject": "Issue 44",
+    "priority": "low",
+    "created_at": "2026-01-17T03:46:48.376031",
+    "status": "closed"
+  },
+  {
+    "ticket_id": 45,
+    "customer_id": 47,
+    "subject": "Issue 45",
+    "priority": "medium",
+    "created_at": "2026-02-12T03:46:48.376033",
+    "status": "closed"
+  },
+  {
+    "ticket_id": 46,
+    "customer_id": 45,
+    "subject": "Issue 46",
+    "priority": "medium",
+    "created_at": "2026-01-19T03:46:48.376035",
+    "status": "closed"
+  },
+  {
+    "ticket_id": 47,
+    "customer_id": 40,
+    "subject": "Issue 47",
+    "priority": "low",
+    "created_at": "2026-01-21T03:46:48.376037",
+    "status": "open"
+  },
+  {
+    "ticket_id": 48,
+    "customer_id": 4,
+    "subject": "Issue 48",
+    "priority": "high",
+    "created_at": "2026-02-05T03:46:48.376039",
+    "status": "open"
+  },
+  {
+    "ticket_id": 49,
+    "customer_id": 40,
+    "subject": "Issue 49",
+    "priority": "high",
+    "created_at": "2026-01-26T03:46:48.376042",
+    "status": "closed"
+  },
+  {
+    "ticket_id": 50,
+    "customer_id": 40,
+    "subject": "Issue 50",
+    "priority": "medium",
+    "created_at": "2026-01-26T03:46:48.376044",
+    "status": "open"
+  }
+]
