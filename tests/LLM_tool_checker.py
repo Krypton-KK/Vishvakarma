@@ -2,6 +2,8 @@ import json
 import httpx
 from openai import OpenAI
 
+from app.config import settings
+
 LM_STUDIO_URL = "http://localhost:1234/v1"
 API_URL = "http://localhost:8000"
 
@@ -43,8 +45,7 @@ tools = [
 
 
 def main():
-    query = "Find the recently joined customers in the last month upto today, the current date is 2026-01-11 and the date timestamp is of the form 2026-01-11T03:46:48.375809"
-    # query = "Find active customers, sorted by name."
+    query = "Find active customers, sorted by name."
     print(f"User Query: {query}")
 
     try:
@@ -75,6 +76,7 @@ def main():
                     api_response = httpx.request(
                         "GET",
                         f"{API_URL}/data/crm",
+                        header={settings.API_KEY[0]},
                         json=args
                     )
                     print(f"\n[API Response] Status: {api_response.status_code}")
