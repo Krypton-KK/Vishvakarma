@@ -45,7 +45,7 @@ tools = [
 
 
 def main():
-    query = "Find active customers, sorted by name."
+    query = "Find active customers, sorted by name. use the `get_crm_data` tool"
     print(f"User Query: {query}")
 
     try:
@@ -76,7 +76,7 @@ def main():
                     api_response = httpx.request(
                         "GET",
                         f"{API_URL}/data/crm",
-                        header={settings.API_KEY[0]},
+                        headers={"x-api-key": settings.API_KEY[0]},
                         json=args
                     )
                     print(f"\n[API Response] Status: {api_response.status_code}")
