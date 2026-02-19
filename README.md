@@ -1,8 +1,8 @@
-# Vishwakarma 🏗️
+# Vishvakarma 🏗️
 
 > **A typesafe Model Context Protocol (MCP) server for local LLMs. Built with FastAPI & Pydantic to unify data access for AI agents.**
 
-Vishwakarma act as a **Universal Data Connector**, providing a unified, voice-optimized interface for LLMs to access disparate data sources (CRM, Support, Analytics). It handles data type identification, intelligent filtering, and ensures type-safe function calling for agents.
+Vishvakarma acts as a **Universal Data Connector**, providing a unified, voice-optimized interface for LLMs to access disparate data sources (CRM, Support, Analytics). It handles data type identification, API verification, intelligent filtering, and ensures type-safe function calling for agents.
 
 ## 🚀 Features
 
@@ -180,40 +180,6 @@ By completing this exercise, you will demonstrate:
 
 ---
 
-## 🚀 Getting Started
-
-### Phase 1: Setup (Day 1)
-1. Set up project structure
-2. Create base models and connector interface
-3. Implement mock data generators
-4. Get FastAPI running with health check
-
-### Phase 2: Core Connectors (Days 2-3)
-1. Implement CRM connector
-2. Implement support ticket connector
-3. Implement analytics connector
-4. Add data type identification
-
-### Phase 3: Business Rules (Day 4)
-1. Build business rules engine
-2. Implement voice optimizations
-3. Add pagination and filtering
-4. Test with sample queries
-
-### Phase 4: LLM Integration (Day 5)
-1. Create function calling schemas
-2. Test with LLM (Claude or OpenAI)
-3. Optimize response formats
-4. Add metadata and context
-
-### Phase 5: Polish (Day 6)
-1. Add comprehensive logging
-2. Write tests
-3. Create Docker setup
-4. Write documentation
-
----
-
 ## 📝 Submission Requirements
 
 1. **GitHub Repository** with:
@@ -236,27 +202,7 @@ By completing this exercise, you will demonstrate:
 
 ---
 
-## 💡 Tips for Success
-
-1. **Start Simple**: Get one connector working end-to-end before adding complexity
-2. **Use Type Hints**: Let your IDE help you catch bugs early
-3. **Test as You Go**: Don't wait until the end to test
-4. **Think About the User**: Would this response make sense in a voice conversation?
-5. **Document Your Thinking**: Add comments explaining "why" not just "what"
-6. **Ask Questions**: If requirements are unclear, make reasonable assumptions and document them
-
----
-
-## 📚 Resources
-
-- [FastAPI Documentation](https://fastapi.tiangolo.com/)
-- [Pydantic V2 Documentation](https://docs.pydantic.dev/)
-- [OpenAI Function Calling Guide](https://platform.openai.com/docs/guides/function-calling)
-- [Anthropic Tool Use Documentation](https://docs.anthropic.com/en/docs/build-with-claude/tool-use)
-
----
-
-## 🎉 Bonus Challenges (Optional)
+## 🎉 Bonus Challenges
 
 If you finish early and want to go further:
 1. Add caching layer (Redis) for frequently accessed data
@@ -267,19 +213,6 @@ If you finish early and want to go further:
 6. Implement webhook support for real-time data updates
 7. Add data export functionality (CSV, Excel)
 
-Good luck! We're excited to see what you build. 🚀
-
-## Run locally
-
-```bash
-pip install -r requirements.txt
-uvicorn app.main:app --reload
-```
-
-## Docker
-
-```bash
-docker-compose up --build
-```
-
-Visit: http://localhost:8000/docs
+## Features I implemented from Bonus Challenges:
+- Implement rate limiting per data source 
+- Add authentication and API key management 
